@@ -10,22 +10,22 @@
     <title>{{ config('app.name', 'Laravel') }}</title>
 
     <!-- Scripts -->
-    <link href="{{ asset('public/admin/css/bootstrap.min.css') }}" rel="stylesheet" />
+    <link href="{{ asset('admin/css/bootstrap.min.css') }}" rel="stylesheet" />
 
         <!-- Font Icons -->
-        <link href="{{ asset('public/admin/assets/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet" />
-        <link href="{{ asset('public/admin/assets/ionicon/css/ionicons.min.css') }}" rel="stylesheet" />
-        <link href="{{ asset('public/admin/css/material-design-iconic-font.min.css') }}" rel="stylesheet">
+        <link href="{{ asset('admin/assets/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet" />
+        <link href="{{ asset('admin/assets/ionicon/css/ionicons.min.css') }}" rel="stylesheet" />
+        <link href="{{ asset('admin/css/material-design-iconic-font.min.css') }}" rel="stylesheet">
 
         <!-- animate css -->
-        <link href="{{ asset('public/admin/css/animate.css') }}" rel="stylesheet" />
+        <link href="{{ asset('admin/css/animate.css') }}" rel="stylesheet" />
         <!-- Waves-effect -->
-        <link href="{{ asset('public/admin/css/waves-effect.css') }}" rel="stylesheet">
+        <link href="{{ asset('admin/css/waves-effect.css') }}" rel="stylesheet">
         <!-- Custom Files -->
-        <link href="{{ asset('public/admin/css/helper.css') }}" rel="stylesheet" type="text/css" />
-        <link href="{{ asset('public/admin/css/style.css') }}" rel="stylesheet" type="text/css" />
+        <link href="{{ asset('admin/css/helper.css') }}" rel="stylesheet" type="text/css" />
+        <link href="{{ asset('admin/css/style.css') }}" rel="stylesheet" type="text/css" />
 
-        <script src="{{ asset('public/admin/js/modernizr.min.js') }}"></script>
+        <script src="{{ asset('admin/js/modernizr.min.js') }}"></script>
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
@@ -35,18 +35,9 @@
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light navbar-laravel">
             <div class="container">
-                <a class="navbar-brand" href="{{ url('/') }}">
-                    {{ config('app.name', 'Laravel') }}
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+                
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <!-- Left Side Of Navbar -->
-                    <ul class="navbar-nav mr-auto">
-
-                    </ul>
 
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">
@@ -93,48 +84,48 @@
         </script>
 
         <!-- jQuery  -->
-        <script src="{{ asset('public/admin/js/jquery.min.js') }}"></script>
-        <script src="{{ asset('public/admin/js/bootstrap.min.js') }}"></script>
-        <script src="{{ asset('public/admin/js/waves.js') }}"></script>
-        <script src="{{ asset('public/admin/js/wow.min.js') }}"></script>
-        <script src="{{ asset('public/admin/js/jquery.nicescroll.js') }}" type="text/javascript"></script>
-        <script src="{{ asset('public/admin/js/jquery.scrollTo.min.js') }}"></script>
-        <script src="{{ asset('public/admin/assets/chat/moment-2.2.1.js') }}"></script>
-        <script src="{{ asset('public/admin/assets/jquery-sparkline/jquery.sparkline.min.js') }}"></script>
-        <script src="{{ asset('public/admin/assets/jquery-detectmobile/detect.js') }}"></script>
-        <script src="{{ asset('public/admin/assets/fastclick/fastclick.js') }}"></script>
-        <script src="{{ asset('public/admin/assets/jquery-slimscroll/jquery.slimscroll.js') }}"></script>
-        <script src="{{ asset('public/admin/assets/jquery-blockui/jquery.blockUI.js') }}"></script>
+        <script src="{{ asset('admin/js/jquery.min.js') }}"></script>
+        <script src="{{ asset('admin/js/bootstrap.min.js') }}"></script>
+        <script src="{{ asset('admin/js/waves.js') }}"></script>
+        <script src="{{ asset('admin/js/wow.min.js') }}"></script>
+        <script src="{{ asset('admin/js/jquery.nicescroll.js') }}" type="text/javascript"></script>
+        <script src="{{ asset('admin/js/jquery.scrollTo.min.js') }}"></script>
+        <script src="{{ asset('admin/assets/chat/moment-2.2.1.js') }}"></script>
+        <script src="{{ asset('admin/assets/jquery-sparkline/jquery.sparkline.min.js') }}"></script>
+        <script src="{{ asset('admin/assets/jquery-detectmobile/detect.js') }}"></script>
+        <script src="{{ asset('admin/assets/fastclick/fastclick.js') }}"></script>
+        <script src="{{ asset('admin/assets/jquery-slimscroll/jquery.slimscroll.js') }}"></script>
+        <script src="{{ asset('admin/assets/jquery-blockui/jquery.blockUI.js') }}"></script>
 
         <!-- sweet alerts -->
-        <script src="{{ asset('public/admin/assets/sweet-alert/sweet-alert.min.js') }}"></script>
-        <script src="{{ asset('public/admin/assets/sweet-alert/sweet-alert.init.js') }}"></script>
+        <script src="{{ asset('admin/assets/sweet-alert/sweet-alert.min.js') }}"></script>
+        <script src="{{ asset('admin/assets/sweet-alert/sweet-alert.init.js') }}"></script>
 
         <!-- flot Chart -->
-        <script src="{{ asset('public/admin/assets/flot-chart/jquery.flot.js') }}"></script>
-        <script src="{{ asset('public/admin/assets/flot-chart/jquery.flot.time.js') }}"></script>
-        <script src="{{ asset('public/admin/assets/flot-chart/jquery.flot.tooltip.min.js') }}"></script>
-        <script src="{{ asset('public/admin/assets/flot-chart/jquery.flot.resize.js') }}"></script>
-        <script src="{{ asset('public/admin/assets/flot-chart/jquery.flot.pie.js') }}"></script>
-        <script src="{{ asset('public/admin/assets/flot-chart/jquery.flot.selection.js') }}"></script>
-        <script src="{{ asset('public/admin/assets/flot-chart/jquery.flot.stack.js') }}"></script>
-        <script src="{{ asset('public/admin/assets/flot-chart/jquery.flot.crosshair.js') }}"></script>
+        <script src="{{ asset('admin/assets/flot-chart/jquery.flot.js') }}"></script>
+        <script src="{{ asset('admin/assets/flot-chart/jquery.flot.time.js') }}"></script>
+        <script src="{{ asset('admin/assets/flot-chart/jquery.flot.tooltip.min.js') }}"></script>
+        <script src="{{ asset('admin/assets/flot-chart/jquery.flot.resize.js') }}"></script>
+        <script src="{{ asset('admin/assets/flot-chart/jquery.flot.pie.js') }}"></script>
+        <script src="{{ asset('admin/assets/flot-chart/jquery.flot.selection.js') }}"></script>
+        <script src="{{ asset('admin/assets/flot-chart/jquery.flot.stack.js') }}"></script>
+        <script src="{{ asset('admin/assets/flot-chart/jquery.flot.crosshair.js') }}"></script>
 
         <!-- Counter-up -->
-        <script src="{{ asset('public/admin/assets/counterup/waypoints.min.js') }}" type="text/javascript"></script>
-        <script src="{{ asset('public/admin/assets/counterup/jquery.counterup.min.js') }}" type="text/javascript"></script>
+        <script src="{{ asset('admin/assets/counterup/waypoints.min.js') }}" type="text/javascript"></script>
+        <script src="{{ asset('admin/assets/counterup/jquery.counterup.min.js') }}" type="text/javascript"></script>
         
         <!-- CUSTOM JS -->
-        <script src="{{ asset('public/admin/js/jquery.app.js') }}"></script>
+        <script src="{{ asset('admin/js/jquery.app.js') }}"></script>
 
         <!-- Dashboard -->
-        <script src="{{ asset('public/admin/js/jquery.dashboard.js') }}"></script>
+        <script src="{{ asset('admin/js/jquery.dashboard.js') }}"></script>
 
         <!-- Chat -->
-        <script src="{{ asset('public/admin/js/jquery.chat.js') }}"></script>
+        <script src="{{ asset('admin/js/jquery.chat.js') }}"></script>
 
         <!-- Todo -->
-        <script src="{{ asset('public/admin/js/jquery.todo.js') }}"></script>
+        <script src="{{ asset('admin/js/jquery.todo.js') }}"></script>
 
         <script type="text/javascript">
             /* ==============================================
